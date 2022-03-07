@@ -13,7 +13,7 @@ https://help.hcltechsw.com/onetest/hclonetestperformance/10.1/com.ibm.rational.t
 
 `netsh -c Interface ip add address name="vEthernet (WSL)" addr=172.22.160.2 mask=255.255.240.0`
 
-`netsh -c Interface ip delete address name="Gig Ethernet" addr=172.22.160.2`
+`netsh -c Interface ip delete address name="vEthernet (WSL)" addr=172.22.160.2`
 
 **Add the Ip alias to c:\Windows\System32\Drivers\etc\hosts**
 
